@@ -1,0 +1,54 @@
+[
+   
+      {
+        "_id": 3,
+        "price": "3000 Tk",
+        "picture": "image-3.png",
+        "name": " Zoology",
+        "description":"Hsc students are cordially invited to join this batch.Here the book of Zoology taught very well within 2 years."
+      },
+      {
+        "_id": 4,
+        "price": "00 Tk",
+        "picture": "image-4.jpg",
+        "name": "Economic Benefits ",
+        "description":"There are special offer for the economically impoverished and meritorious students."
+      },
+      {
+        "_id": 5,
+        "price": "00 Tk",
+        "picture": "image-5.jpg",
+        "name": " Extra Time",
+        "description":"Weak students are invited here to join here.Without any payment they can appear in this batch."
+      },
+      
+      {
+        "_id": 7,
+        "price": "5000 Tk",
+        "picture": "image-7.jpg",
+        "name": " Online Teaching",
+        "description":"I can also give online tuition Benefit."
+      },
+      {
+        "_id": 8,
+        "price": "500 Tk/Month",
+        "picture": "image-9.jpg",
+        "name": "Exam Available",
+        "description":"Every day after a class exam is available.Then also special Exam is available for the brilliant students."
+      },
+      {
+        "_id": 1,
+        "price": "3000 Tk",
+        "picture": "image-1.jpg",
+        "name": " Admission",
+        "description":"Medical and Varsity admission students are cordially invited to join this batch.Students are treated well and fully prepared for their admission test."
+      },
+      {
+          "_id": 2,
+          "price": "600 Tk/Month",
+          "picture": "image-2.jpg",
+          "name": "Botany",
+          "description":"Hsc students are cordially invited to join this batch.Here the subject of Botany taught very well within 2 years. "
+        }
+
+  ]
