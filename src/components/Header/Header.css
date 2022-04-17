@@ -1,0 +1,9 @@
+.img-slider{
+    height: 500px;
+    width: 100%;
+}
+.carousel-text{
+    text-align: start;
+    line-height: 3;
+    font-size: 30px;
+}
