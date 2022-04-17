@@ -3,9 +3,9 @@ import './Service.css'
 const Service = (props) => {
     const{name,price,picture,description}=props.service;
     return (
-        <div className='service-container'>
+        <div className='service-container '>
            
-            <img src={picture} alt="" />
+            <img className='' src={picture} alt="" />
             <h1>{name}</h1>
             <p>{description}</p>
             <h5>Fee: {price}</h5>

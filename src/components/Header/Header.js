@@ -1,6 +1,6 @@
 // import { Carousel } from 'bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
-import './Header.css'
+import './Header.css';
 import React from 'react';
 import Services from './services/Services';
 
@@ -8,10 +8,10 @@ const Header = () => {
     return (
         <div>
 
-            <Carousel fade interval={1000} >
+            <Carousel fade interval={1000} className="container-fluid" >
                 <Carousel.Item>
                     <img
-                        className="  img-slider"
+                        className="  img-slider "
                         src="dna-ge9393eea3_640.jpg"
                         alt="First slide"
                     />
@@ -22,7 +22,7 @@ const Header = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block img-slider"
+                        className="d-block img-slider "
                         src="pexels-egor-kamelev-920160.jpg"
                         alt="Second slide"
                     />
@@ -34,7 +34,7 @@ const Header = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block img-slider"
+                        className="d-block img-slider "
                         src="cells-g079e17155_640.jpg"
                         alt="Third slide"
                     />

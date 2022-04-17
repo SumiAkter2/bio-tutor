@@ -8,6 +8,7 @@ import Home from './components/Home/Home';
 import LogIn from './components/LogIn/LogIn';
 import NotFound from './components/NotFound/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
        <Route path='/about' element={<About></About>}></Route>
        <Route path='*' element={<NotFound></NotFound>}></Route>
      </Routes>
+     <Footer></Footer>
     </div>
   );
 }
