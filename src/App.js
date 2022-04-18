@@ -9,6 +9,7 @@ import LogIn from './components/LogIn/LogIn';
 import NotFound from './components/NotFound/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer/Footer';
+import Register from './components/Register/Register';
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
        <Route path='/blog' element={<Blog></Blog>}></Route>
        <Route path='/login' element={<LogIn></LogIn>}></Route>
        <Route path='/about' element={<About></About>}></Route>
+       <Route path='/register' element={<Register></Register>}></Route>
        <Route path='*' element={<NotFound></NotFound>}></Route>
      </Routes>
      <Footer></Footer>
