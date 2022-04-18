@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className='text-start'>
+        <div className='text-start container'>
           
             <h1>Q:Difference between authorization and authentication?</h1>
             <p>Ans: 1.Authorization determines whether one is authorized to access the resources. Authentication confirms one identity to grant access to the system.

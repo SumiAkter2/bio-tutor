@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import React from 'react';
 import './Home.css';
 import Services from '../Header/services/Services';
+import RequireAuth from '../LogIn/RequireAuth/RequireAuth';
 const Home = () => {
    
     return (
@@ -52,7 +53,7 @@ const Home = () => {
                 </Carousel.Item>
             </Carousel>
             <Services></Services>
-
+<RequireAuth></RequireAuth>
        </div>
     );
 };

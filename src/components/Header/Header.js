@@ -15,16 +15,18 @@ const Header = () => {
     return (
         <div className='navbar'>
   <div className='d-flex justify-content-between   container'>
-           <h1>   <i className="fas fa-camera fa-xs"></i> Bio Tutor</h1>
-            <nav className='d-flex '>
+           <h1>  <img src="favicon.jpg" className='nav-logo'  alt="" /> Bio Tutor</h1>
+           <div  className=' nav-menu'>
+           <nav>
             <CustomLink to='/'>Home</CustomLink>
             <CustomLink to='/blog'>Blog</CustomLink>
            {
-           user ?  <button className='btn btn-link text-white me-2 text-decoration-none fs-5 bg-dark' onClick={handleSignOut}>sign out</button>:
+           user ?  <button className='btn btn-link text-white me-2 text-decoration-none fs-5 bg-dark' onClick={handleSignOut}>Sign out</button>:
            <CustomLink to='/login'>LogIn</CustomLink>}
             <CustomLink to='/about'>About</CustomLink>
-            {/* <CustomLink to='/register'>Register</CustomLink> */}
+             <CustomLink to='/contact'>Contact</CustomLink>
             </nav>
+           </div>
             
        </div>
            

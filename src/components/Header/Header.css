@@ -1,9 +1,25 @@
 .navbar nav a{
     text-decoration: none; 
-   
+ 
  }
- .navbar{
+ .navbar {
      color: #FFF;
      background-color: rgb(0, 0, 0);
     
+ }
+ .nav-menu nav{
+     display: flex;
+ }
+ .nav-logo{
+width: 30px;
+
+ }
+ @media only  screen  and (max-width:576px){
+    
+     .nav-menu nav {
+         display: block;
+         height: 200px;
+        justify-content: center;
+     }
+     
  }

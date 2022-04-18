@@ -46,7 +46,7 @@ if(user){
                 <br />
                 <input type="password" name="password" id="" placeholder='Enter your password' required />
                 <br />
-                <input  type="submit" value="Register" />
+                <input className='w-50 mx-auto bg-dark text-white fs-5' type="submit" value="Register" />
                
             </form>
             <p className=' mt-4 pe-auto ' onClick={navigateLogin}>Already have an account?<Link className='text-decoration-none' to={'/login'}>Please LogIn</Link></p>
