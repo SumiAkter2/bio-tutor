@@ -1,6 +1,20 @@
 # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Bio Tutor
+[Bio tutor](),
+*bullet :
+--html
+--css
+--react bootstrap
+--react hero icon
+--firebase hook
+**create not found component**
+**hide api key of firebase**
+**create services component**
+**added icon**
+**create login form**
+**create requireAuth**
+**checkout page**
+This project was bootstrapped with [Bio tutor](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
