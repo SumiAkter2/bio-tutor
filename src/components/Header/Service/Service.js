@@ -1,3 +1,4 @@
+import Button from 'react-bootstrap/Button'
 import React from 'react';
 import './Service.css'
 const Service = (props) => {
@@ -9,6 +10,7 @@ const Service = (props) => {
             <h1>{name}</h1>
             <p>{description}</p>
             <h5>Fee: {price}</h5>
+            <Button variant="primary" className='my-3'>Check Out</Button>
         </div>
     );
 };
