@@ -13,8 +13,8 @@ const Header = () => {
         signOut(auth);
     }
     return (
-        <div>
-  <div className='d-flex justify-content-between  navbar'>
+        <div className='navbar'>
+  <div className='d-flex justify-content-between   container'>
            <h1>   <i className="fas fa-camera fa-xs"></i> Bio Tutor</h1>
             <nav className='d-flex '>
             <CustomLink to='/'>Home</CustomLink>
