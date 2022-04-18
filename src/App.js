@@ -10,17 +10,25 @@ import NotFound from './components/NotFound/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer/Footer';
 import Register from './components/Register/Register';
+import Checkout from './components/Checkout/Checkout';
+import RequireAuth from './components/LogIn/RequireAuth/RequireAuth';
 function App() {
   return (
     <div className="App">
     <Home></Home>
      <Routes>
        <Route path='/' element={<Home></Home>}></Route>
-       <Route path='/home' element={<Header></Header>}></Route>
+       <Route index element={<Header></Header>}></Route>
        <Route path='/blog' element={<Blog></Blog>}></Route>
        <Route path='/login' element={<LogIn></LogIn>}></Route>
-       <Route path='/about' element={<About></About>}></Route>
+      <Route path='/checkout' element={
+<RequireAuth>
+<Checkout></Checkout> 
+</RequireAuth>
+
+      }></Route>
        <Route path='/register' element={<Register></Register>}></Route>
+       <Route path='/about' element={<About></About>}></Route>
        <Route path='*' element={<NotFound></NotFound>}></Route>
      </Routes>
      <Footer></Footer>

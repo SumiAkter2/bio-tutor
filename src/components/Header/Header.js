@@ -12,36 +12,43 @@ const Header = () => {
                 <Carousel.Item>
                     <img
                         className="  img-slider "
-                        src="dna-ge9393eea3_640.jpg"
+                        src="bannar-4.jpg"
                         alt="First slide"
                     />
-                    <Carousel.Caption className='carousel-text'>
-                        <h3 style={{ fontSize: '40px' }}>Learn Biology to Build Your  skill</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+                   <Carousel.Caption>
+                       <div className='text-start bannar-text' style={{ fontSize: '40px' }}>
+                      <div>
+                      <h3 style={{ fontSize: '60px',lineHeight:'5' }}>Need a tutor?</h3>
+                       <h2>Marina khan</h2>
+                       <p>B.Sc <small>(Hons.) in Botany, </small> DU</p>
+                      </div>
+                       </div>
+                       </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block img-slider "
-                        src="pexels-egor-kamelev-920160.jpg"
+                        src="  bannar-2.jpg"
                         alt="Second slide"
                     />
 
                     <Carousel.Caption className='carousel-text'>
-                        <h3 style={{ fontSize: '40px' }}>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 style={{ fontSize: '40px' }}>
+                        Booking is On!!!!
+                        </h3>
+                        <p></p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block img-slider "
-                        src="cells-g079e17155_640.jpg"
+                        src=" dna-ge9393eea3_640.jpg"
                         alt="Third slide"
                     />
 
                     <Carousel.Caption className='carousel-text'>
-                        <h3 style={{ fontSize: '40px' }}>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3 style={{ fontSize: '40px' }}> Learn With Biology To Build Your Skills.</h3>
+                       
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
