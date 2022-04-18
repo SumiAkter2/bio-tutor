@@ -3,6 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
+import SocialLogin from './Social/SocialLogin';
 
 const LogIn = () => {
     const emailRef = useRef('');
@@ -57,7 +58,7 @@ const LogIn = () => {
                 </Button>
                 <p className=' mt-4 pe-auto ' onClick={navigateRegister}><Link className='text-decoration-none' to={'/register'}>Register</Link></p>
             </Form>
-
+<SocialLogin></SocialLogin>
         </div>
     );
 };
