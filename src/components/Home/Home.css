@@ -1,7 +1,15 @@
-.navbar nav a{
-   text-decoration: none; 
-  
+
+.img-slider{
+    height: 500px;
+    width: 100%;
 }
-.navbar{
-    color: blue;
+.carousel-text{
+    
+    line-height: 3;
+    font-size: 30px;
+}
+.bannar-text{
+    display: flex;
+    align-items: start;
+    justify-content: start;
 }

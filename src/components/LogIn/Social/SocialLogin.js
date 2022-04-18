@@ -2,13 +2,9 @@ import React from 'react';
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
-// import google from '../../../../public/google.jpg'
-// import facebook from '../../../images/social/facebook.png';
-// import github from '../../../images/social/github.png';
-// import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
-// import auth from '../../../firebase.init';
-// import { useNavigate } from 'react-router-dom';
-// import Loading from '../../Shared/Loading/Loading';
+
+
+ import Loading from '../../Landing/Landing.js';
 
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
@@ -17,9 +13,9 @@ const SocialLogin = () => {
     
     let errorElement;
 
-    // if(loading || loading1){
-    //     return <Loading></Loading>
-    // }
+    if(loading || loading1){
+        return <Loading></Loading>
+    }
 
     if (error || error1) {
         errorElement = <p className='text-danger'>Error: {error?.message} {error1?.message}</p>
