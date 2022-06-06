@@ -53,7 +53,7 @@ const Home = () => {
                 </Carousel.Item>
             </Carousel>
             <Services></Services>
-<RequireAuth></RequireAuth>
+
        </div>
     );
 };

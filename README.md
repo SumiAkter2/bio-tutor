@@ -1,22 +1,23 @@
 # Getting Started with Create React App
 #Bio Tutor
-#[Bio tutor](https://hsc-biology.firebaseapp.com/login),
+#[Bio tutor](https://hsc-biology.firebaseapp.com/login)
 *bullet :
-<ul>
-  <li>html</li>
-  <li>css</li>
-  <li>react bootstrap</li>
-  <li>firebase hook</li>
-  <li>react hero icon</li>
-  </ul>
+
+ - html
+ - html
+ - css
+ - react bootstrap
+ - firebase hook
+ - react hero icon>
+  
   #description
-  <ul>
-  <li>create not found component</li>
-  <li>create services component</li>
-  <li>hide api key of firebase</li>
-  <li>checkout page</li>
-  <li>create requireAuth</li>
-</ul>
+-
+-create not found component
+-create services component
+-hide api key of firebase
+-checkout page
+-create requireAuth
+
 
 This project was bootstrapped with [Bio tutor](https://hsc-biology.firebaseapp.com/login).
 
